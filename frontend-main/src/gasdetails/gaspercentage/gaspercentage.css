@@ -1,0 +1,18 @@
+.gaspercentage{
+    align-items: center;
+    text-align: center;
+    color: aliceblue;
+    padding:20px;
+
+
+}
+
+.headtext{
+    font-size:30px;
+    padding:20px;
+    padding-bottom:40px;
+    font-weight: bold;
+    background: linear-gradient(to right, rgb(232, 75, 31), rgb(233, 219, 21));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

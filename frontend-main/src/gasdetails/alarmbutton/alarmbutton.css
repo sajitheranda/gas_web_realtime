@@ -1,0 +1,31 @@
+.buttonalarm{
+    font-size: 18px;
+    margin: 10%;
+    margin-top: 60px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.buttonhead{
+    text-align: center;
+    font-size: 25px;
+    color:rgb(200, 153, 14);
+    font-weight:900;
+    
+}
+
+.alarmer{
+    width:250px;
+    height:300px;
+    background-image:url('./button_image.jpg');
+    text-align: center;
+    padding: 30px;
+    border-radius:20px;
+    margin:30px;
+    filter: brightness(1) contrast(1.5);
+
+}

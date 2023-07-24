@@ -1,0 +1,52 @@
+.leaker{
+    width:80%;
+    height:380px;
+    background-image:url('../alarmbutton/button_image.jpg');
+    filter: brightness(1) contrast(1.5);
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.headertitle{
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: rgb(200, 153, 14);
+    font-weight: 900;
+}
+
+.bigbox{
+    width:80%;
+    margin-bottom:5px;
+    margin-left:10%;
+    margin-right:10%;
+    height:50px;
+    border-radius:10px;
+    background-color: rgb(9, 5, 85);
+    font-size: 20px;
+    padding-top:10px;
+    
+}
+
+.valuver{
+    color: rgb(23, 207, 16);
+}
+
+.leakbutton{
+    margin-top:30px;
+    height:50px;
+    width:120px;
+    border-radius:20px;
+    background-color: blue;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+
+.cl{
+    color: rgb(105, 23, 5);
+}
+
+

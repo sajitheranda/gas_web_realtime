@@ -1,0 +1,31 @@
+.weightgas{
+    color: white;
+    align-items: center;
+    text-align: center;
+
+    /*display: flex;
+    justify-content: center;
+    background-color: rgb(83, 130, 171);*/
+}
+
+.square {
+    width: 65%;
+    height:60px;
+    background-color: rgb(28, 4, 80);
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius:20px;
+    padding:5px;
+    margin: 10px;;
+    font-size: 20px;
+
+  }
+
+  .title{
+    color: rgb(21, 159, 13);
+  }
+
+  .value{
+    color: rgb(217, 194, 25);
+  }

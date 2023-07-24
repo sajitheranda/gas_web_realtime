@@ -1,0 +1,71 @@
+.abouter{
+    display: flex;
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+
+.downloads{
+    flex:4;
+    text-align: center;
+    align-items: center;
+    height:80%;
+    margin-top:10%;
+    margin-top:10%;
+}
+
+
+.backgound_imager{
+    
+    flex: 4;
+    height: 96vh;
+    background:url('download_image3.jpg');
+    background-position: center; /* Adjust the position of the image (e.g., 'center', 'left', 'right', 'top', 'bottom') */
+    background-size: cover; /* Set the image size to cover the entire container */
+    color: white; /**/
+}
+
+.titlehead{
+    font-size:35px;
+    padding:5px;
+    padding-bottom:20px;
+    background: linear-gradient(to right, rgb(232, 75, 31), rgb(233, 219, 21));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.titlebody{
+    text-align: justify;
+    padding-left: 20%;
+    padding-right: 20%;
+
+}
+
+.download_app{
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 30px;
+    color: aliceblue;
+    background-color: rgb(128, 53, 4);
+    cursor: pointer;
+}
+
+.button {
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: rgb(128, 53, 4);
+    color: #fff;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .button.large {
+    padding: 15px 25px;
+    font-size: 20px;
+
+  }
+

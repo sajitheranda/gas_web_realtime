@@ -1,0 +1,10 @@
+.name{
+    color: #a93b05;
+}
+
+.chartbar{
+    text-align: center;
+    align-items: center;
+    background-color: aliceblue;
+    margin: '50px';
+}

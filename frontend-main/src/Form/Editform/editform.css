@@ -1,0 +1,52 @@
+.contain_form {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 60%;
+    background-color: rgb(3, 2, 30);
+    margin-left:20%;
+    margin-right: 20%;
+    border-radius: 20px;
+  
+  }
+
+  .imager{
+    flex:3;
+    background:url('form2.jpg');
+    background-position: center; /* Adjust the position of the image (e.g., 'center', 'left', 'right', 'top', 'bottom') */
+    background-size: cover; /* Set the image size to cover the entire container */
+    height: 550px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+
+  .former{
+    flex: 8;
+    color: aliceblue;
+  }
+
+  input[type="time"] {
+    color: rgb(7, 7, 120); /* Replace 'blue' with the desired color */
+  }
+
+  input[type="date"] {
+    color: rgb(7, 7, 120); /* Replace 'blue' with the desired color */
+  }
+
+  input[type="text"] {
+    color: rgb(7, 7, 120); /* Replace 'blue' with the desired color */
+  }
+
+  input[type="email"] {
+    color: rgb(7, 7, 120); /* Replace 'blue' with the desired color */
+  }
+
+  select.form-control {
+    color: rgb(7, 7, 120); /* Replace 'red' with the desired color */
+    /*background-color: yellow; /* Replace 'yellow' with the desired background color */
+  }
+  .title_head{
+    background: linear-gradient(to right, rgb(232, 75, 31), rgb(233, 219, 21));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }

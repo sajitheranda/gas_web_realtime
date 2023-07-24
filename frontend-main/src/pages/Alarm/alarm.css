@@ -1,0 +1,19 @@
+.chart{
+    padding-top: 60px;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    position:sticky;
+}
+
+
+.leakage{
+    flex: 6;
+}
+
+.alarm{
+    flex: 4;
+    align-items: center;
+    text-align: center;
+    margin-left:50px;
+}
