@@ -50,15 +50,23 @@ export default function Alarm() {
           setalarmval(dataval.alarm)
           if(dataval.test.starttime){
             setstarttime(dataval.test.starttime)
+          }else{
+            setstarttime(0)    
           }
           if(dataval.test.endtime){
             setendtime(dataval.test.endtime)
+          }else{
+            setendtime(0)
           }
           if(dataval.test.startweight){
             setstartweight(dataval.test.startweight)
+          }else{
+            setendtime(0)
           }
           if(dataval.test.endweight){
             setendweight(dataval.test.endweight)
+          }else{
+            setendweight(0)   
           }
 
           setstatus(dataval.test.status)
@@ -98,10 +106,10 @@ export default function Alarm() {
       gasAppRef.child('test').child('endtime').set(currentTime)
       gasAppRef.child('test').child('endweight').set(weight)
     }else if(status === 2 && starttime && startweight && endtime && endweight ){
-      gasAppRef.child('test').child('endtime').set(null)
-      gasAppRef.child('test').child('endweight').set(null)
-      gasAppRef.child('test').child('starttime').set(null)
-      gasAppRef.child('test').child('startweight').set(null)
+      gasAppRef.child('test').child('endtime').set(0)
+      gasAppRef.child('test').child('endweight').set(0)
+      gasAppRef.child('test').child('starttime').set(0)
+      gasAppRef.child('test').child('startweight').set(0)
     }
     
     gasAppRef.child('test').child('status')
@@ -114,6 +122,9 @@ export default function Alarm() {
     if(starttime && startweight && currentTime && weight){
       settimedifference(currentTime-starttime)
       setweightdifference(startweight - weight)
+    }else{
+      settimedifference(0)
+      setweightdifference(0)
     }
   }, [starttime,startweight,currentTime,weight]);
   
@@ -121,6 +132,7 @@ export default function Alarm() {
 
   return (
     <div className='chart'>
+      {startweight}
       <div className='alarm'>
         <Alarmbutton alarmval={alarmval} handleClick={handlePush}/>
       </div>

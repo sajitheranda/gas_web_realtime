@@ -26,7 +26,7 @@ export default function Leakage({status=0,time=0,weight=0,handletest}) {
       </div>
       <div className='bigbox'>
         <span>Reduce weight : </span>
-        <span className='valuver'>{weight.toFixed(3)} kg</span>
+        <span className='valuver'>{weight.toFixed(2)} kg</span>
       </div>
       <div className='bigbox'>
         <span>Status : </span>

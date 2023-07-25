@@ -1,4 +1,4 @@
-const defaultGasValues = { onlyGas: 10, emptyTank: 1 };
+const defaultGasValues = { onlyGas: 10, emptyTank: 0 };
 
 const gasTypeValues = {
   buddy: { onlyGas: 10, emptyTank: 1 },

@@ -2,6 +2,7 @@ import './chart.css'
 import Chartdiagram from '../../components/chartdiagram/Chartdiagram'
 import React, { useEffect, useState } from 'react';
 import {gasAppRef} from '../../configuration/firebaseutils';
+import mergedGasType  from '../../data';
 //import database from '../../configuration/firebase';
 
 export default function Chart() {
@@ -27,17 +28,19 @@ export default function Chart() {
   ////////////////////////////////////// empty tank values
   function valuegas(value,type){
     let val=0;
-    let emptyTank;
-    if (type === 'buddy') {
-      emptyTank = 1;
-      val=value - emptyTank;
-    } else if (type === 'budget') {
-      emptyTank = 4.5;
-      val=value - emptyTank;
-    } else if (type === 'regular') {
-      emptyTank = 13.5;
-      val=value - emptyTank;
-    }
+    let { emptyTank } = mergedGasType[type];
+ 
+    // if (type === 'buddy') {
+    //   emptyTank = 1;
+    //   val=value - emptyTank;
+    // } else if (type === 'budget') {
+    //   emptyTank = 4.5;
+    //   val=value - emptyTank;
+    // } else if (type === 'regular') {
+    //   emptyTank = 13.5;
+    //   val=value - emptyTank;
+    // }
+    val=value-emptyTank;
     return val;
   }
   ///////////////////////////////////////////////
@@ -70,7 +73,7 @@ export default function Chart() {
       //const date = new Date(timestamp * 1000);
       //x: formatDate(entry.time),
       x: entry.time*1000,
-      y: valuegas(entry.value,type)
+      y: valuegas(entry.value,type).toFixed(2)
     }));
     setdataset(data)
   },[hashArray,type])

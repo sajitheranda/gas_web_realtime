@@ -14,7 +14,7 @@ export default function Dashboard() {
   const [gasType, setGasType] = useState('buddy');
   const [remain_day,setremain_day] = useState(0);
   const [gas_weight,setgas_weight] = useState(0);
-  const [finish_date,setfinish_date] = useState('Sun, Nov 21, 2021');
+  const [finish_date,setfinish_date] = useState('Sun, May 21, 2023');
   const [startdate, setstartdate] = useState(0);
   const [starttime, setstarttime] = useState(null);
   const [currentTime, setCurrentTime] = useState(null);
@@ -124,13 +124,12 @@ export default function Dashboard() {
     }
                        
         
-  }, [currentTime,gas_weight,gasType,startdate,starttime]);
+  }, [currentTime,gas_weight,gasType,startdate,starttime,gas]);
 
 
 
   return (
     <div className='dash'>
-      {currentTime}
       <div className='percentage'>
         <Gaspercentage percentage={percentage}/>
       </div>

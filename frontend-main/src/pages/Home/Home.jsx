@@ -115,7 +115,6 @@ export default function Home() {
 
   return (
     <div>
-      {formData.time.split(":")[1]}
       <Showform formData={formData}  handleChange={handleChangeform} 
       isediting={isediting} handleClick={handleEdit} saveClick={saveClick}
        cancelClick={cancelClick}/>

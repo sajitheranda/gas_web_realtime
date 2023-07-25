@@ -15,7 +15,7 @@
     background:url('form2.jpg');
     background-position: center; /* Adjust the position of the image (e.g., 'center', 'left', 'right', 'top', 'bottom') */
     background-size: cover; /* Set the image size to cover the entire container */
-    height: 550px;
+    height: 530px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
   }
