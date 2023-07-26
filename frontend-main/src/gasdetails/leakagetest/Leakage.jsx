@@ -22,6 +22,7 @@ export default function Leakage({status=0,time=0,weight=0,handletest}) {
       <div className='headertitle'>Gas Leak Test</div>
       <div className='bigbox'> 
         <span>Test time : </span>
+        {/*time*/}
         <span className='valuver'>{convert(time)}</span>
       </div>
       <div className='bigbox'>
@@ -31,7 +32,7 @@ export default function Leakage({status=0,time=0,weight=0,handletest}) {
       <div className='bigbox'>
         <span>Status : </span>
         <span className='valuver' style={leakStyles}>
-          {weight > 0.2 ? 'leak':'no leak'} 
+          {weight >= 0.1 ? 'leak':'no leak'} 
         </span>
       </div>
      

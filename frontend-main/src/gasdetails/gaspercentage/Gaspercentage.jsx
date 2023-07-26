@@ -76,7 +76,7 @@ export default function Gaspercentage({percentage}) {
 
   return (
     <div className='gaspercentage'>
-      <div className='headtext'>Gas percentage</div>
+      <div className='headtext'>Remaining Gas percentage</div>
       <div>
         <Circularbar percentage={percentage} size={300} strokeWidth={20} />
       </div>

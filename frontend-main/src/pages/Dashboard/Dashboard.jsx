@@ -81,6 +81,10 @@ export default function Dashboard() {
 
       if (0 <= per && per <= 100) {
         setPercentage(per);
+      }else if(per < 0){
+        setPercentage(0);
+      }else if(per > 100){
+        setPercentage(100);
       }
     }
   }, [gas, gasType]);
@@ -108,7 +112,12 @@ export default function Dashboard() {
     //   }
     //   }
     let { onlyGas, emptyTank } = mergedGasType[gasType];
-    setgas_weight(gas-emptyTank);
+    if(gas-emptyTank>=0){
+      setgas_weight(gas-emptyTank);
+    }else{
+      setgas_weight(0);
+    }
+    
 
     if(currentTime && onlyGas){
       let totaltime=startdate+starttime;

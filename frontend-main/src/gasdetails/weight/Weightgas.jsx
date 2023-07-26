@@ -112,7 +112,7 @@ export default function Weightgas({gas_weight =0,finish='no data',remain_day='no
   return (
     <div className='weightgas'>
     <div className='square'>
-        <span className='title'>Remain Days : </span>
+        <span className='title'>Remaining Days : </span>
         <span className='value'>{remain_day}</span>
     </div>
     <div className='square'>

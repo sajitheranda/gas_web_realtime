@@ -67,13 +67,17 @@ export default function Chart() {
     };
   }, []);
 
+  const y_negative_remover=(val)=>{
+    return Math.max(val.toFixed(2), 0)
+  }
+
 
   useEffect(() => {
     const data = hashArray.map(entry => ({
       //const date = new Date(timestamp * 1000);
       //x: formatDate(entry.time),
       x: entry.time*1000,
-      y: valuegas(entry.value,type).toFixed(2)
+      y: y_negative_remover(entry.value,type)
     }));
     setdataset(data)
   },[hashArray,type])
