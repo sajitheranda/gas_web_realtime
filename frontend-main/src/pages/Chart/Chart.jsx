@@ -77,7 +77,7 @@ export default function Chart() {
       //const date = new Date(timestamp * 1000);
       //x: formatDate(entry.time),
       x: entry.time*1000,
-      y: y_negative_remover(entry.value,type)
+      y: y_negative_remover(valuegas(entry.value,type))
     }));
     setdataset(data)
   },[hashArray,type])
