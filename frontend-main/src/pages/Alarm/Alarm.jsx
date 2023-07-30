@@ -132,7 +132,6 @@ export default function Alarm() {
 
   return (
     <div className='chart'>
-      {startweight}
       <div className='alarm'>
         <Alarmbutton alarmval={alarmval} handleClick={handlePush}/>
       </div>

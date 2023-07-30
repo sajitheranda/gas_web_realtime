@@ -109,19 +109,33 @@ export default function Weightgas({gas_weight =0,finish='no data',remain_day='no
     // const options = { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric' };
     // const formattedDate = date.toLocaleDateString('en-US', options);
 
+
+
   return (
     <div className='weightgas'>
     <div className='square'>
         <span className='title'>Remaining Days : </span>
+        {gas_weight < 0 ? (
+        <span className='value'>Invalid</span>
+            ) : (
         <span className='value'>{remain_day}</span>
+         )}
     </div>
     <div className='square'>
         <span className='title'>Gas weight : </span>
+        {gas_weight < 0 ? (
+        <span className='value'>Under weight</span>
+            ) : (
         <span className='value'>{gas_weight.toFixed(2)} kg</span>
+         )}
     </div>
     <div className='square'>
         <span className='title'>Finished Date : </span>
-        <span className='value'>{finish}</span>
+        {gas_weight < 0 ? (
+              <span className='value'>Invalid</span>
+            ) : (
+              <span className='value'>{finish}</span>
+         )}
     </div>
     </div>
   )

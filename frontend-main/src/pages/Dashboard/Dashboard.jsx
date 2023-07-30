@@ -115,7 +115,7 @@ export default function Dashboard() {
     if(gas-emptyTank>=0){
       setgas_weight(gas-emptyTank);
     }else{
-      setgas_weight(0);
+      setgas_weight(-1);
     }
     
 

@@ -8,7 +8,7 @@ export default function Header() {
         <img src='/Images/gas_img1.jpg' alt='project image' className='project_img'/>
       </div>
       <div className="navbarmiddle">
-        <span className="logo">Gas Weighter</span>
+        <span className="logo">Gas Tracker</span>
       </div>
       <div className="navbarright">
         {/* <button className="navlink">Home</button>

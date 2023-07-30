@@ -45,7 +45,7 @@ export default function Sidebar({children}) {
     <div className='plannar'>
         <div className='leftbar' style={{flex : isOpen? '4' : '1'}  }>
         <div className="bars">
-            <span className='words' style={{display : isOpen? 'block' : 'none'}}>Gas weight</span>
+            <span className='words' style={{display : isOpen? 'block' : 'none'}}>GasTrack</span>
             <FaBars className='fabars' onClick={toggle}/>
         </div>
         <div className="containered">{
