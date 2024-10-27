@@ -76,3 +76,22 @@ If you would like to contribute to the Gas Weight Predictor App, please follow t
 2. Create a new branch:
    ```bash
    git checkout -b feature/YourFeatureName
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any questions or feedback, please contact:
+
+- **Name**: [Your Name]
+- **Email**: [Your Email]
+
+## Installation
+
+To set up the Gas Weight Predictor App on your local machine, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/gas-weight-predictor-app.git
