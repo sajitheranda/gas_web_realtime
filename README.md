@@ -12,10 +12,9 @@
 4. [Usage](#usage)
 5. [Machine Learning Model](#machine-learning-model)
 6. [Documentation](#documentation)
-7. [Contributing](#contributing)
-8. [License](#license)
-9. [Contact](#contact)
-10. [Installation](#installation)
+7. [Installation](#installation)
+8. [Contributing](#contributing)
+9. [License](#license)
 
 ## Overview
 
@@ -68,6 +67,14 @@ The app utilizes a Machine Learning model to predict gas consumption patterns ba
 - **Inputting Data**: Fill out all fields on the user input page and submit the form to proceed.
 - **Viewing Results**: The app will automatically redirect to the prediction and chart pages to display results.
 
+## Installation
+
+To set up the Gas Weight Predictor App on your local machine, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/gas-weight-predictor-app.git
+
 ## Contributing
 
 If you would like to contribute to the Gas Weight Predictor App, please follow these steps:
@@ -81,17 +88,4 @@ If you would like to contribute to the Gas Weight Predictor App, please follow t
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Contact
 
-For any questions or feedback, please contact:
-
-- **Name**: [Your Name]
-- **Email**: [Your Email]
-
-## Installation
-
-To set up the Gas Weight Predictor App on your local machine, follow these steps:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/gas-weight-predictor-app.git
