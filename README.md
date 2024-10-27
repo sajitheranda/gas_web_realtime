@@ -14,7 +14,6 @@
 6. [Documentation](#documentation)
 7. [Installation](#installation)
 8. [Contributing](#contributing)
-9. [License](#license)
 
 ## Overview
 
@@ -84,8 +83,5 @@ If you would like to contribute to the Gas Weight Predictor App, please follow t
    ```bash
    git checkout -b feature/YourFeatureName
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 
