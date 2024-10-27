@@ -22,6 +22,12 @@ The Gas Weight Predictor App is designed to help users track their gas usage eff
 ## Features
 
 ### User Input Page
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/7f5435c4-715e-4abe-b004-ad2f869ab205" alt="Page 1 - User Details Page Gas Real-Time" height="400">
+  <p><em>Figure 1: User Details Page with Real-Time Gas Information</em></p>
+</div>
+
 - Collects user details including:
   - **Name**: The name of the user.
   - **Email**: User's email address.
