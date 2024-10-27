@@ -13,6 +13,7 @@
 5. [Machine Learning Model](#machine-learning-model)
 6. [Documentation](#documentation)
 7. [Installation](#installation)
+8. [Mobile App Repository](#mobile-app-repository).
 
 ## Overview
 
@@ -94,14 +95,20 @@ To set up the Gas Weight Predictor App on your local machine, follow these steps
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/gas-weight-predictor-app.git
+   git clone https://github.com/sajitheranda/gas_web_realtime.git
 2. Navigate to the project directory:
    ```bash
-   cd gas-weight-predictor-app
+   cd gas_web_realtime
 3. Install the required dependencies:
    ```bash
    npm install
 4. Start the application:
    ```bash
    npm start
+
+## Mobile App Repository
+
+For the mobile version of the Gas Weight Predictor App, please visit the following repository:
+
+- [Gas Weight Predictor Mobile App](https://github.com/yourusername/gas-weight-predictor-mobile-app)
    
