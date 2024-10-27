@@ -13,7 +13,6 @@
 5. [Machine Learning Model](#machine-learning-model)
 6. [Documentation](#documentation)
 7. [Installation](#installation)
-8. [Contributing](#contributing)
 
 ## Overview
 
@@ -96,15 +95,13 @@ To set up the Gas Weight Predictor App on your local machine, follow these steps
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/gas-weight-predictor-app.git
-
-## Contributing
-
-If you would like to contribute to the Gas Weight Predictor App, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch:
+2. Navigate to the project directory:
    ```bash
-   git checkout -b feature/YourFeatureName
-
-
-
+   cd gas-weight-predictor-app
+3. Install the required dependencies:
+   ```bash
+   npm install
+4. Start the application:
+   ```bash
+   npm start
+   
