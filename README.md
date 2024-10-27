@@ -36,23 +36,40 @@ The Gas Weight Predictor App is designed to help users track their gas usage eff
   - **Starting Time**: The time the gas was first used.
 
 ### Prediction Page
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/9c1789e0-1872-4a1b-a8c0-745856aed753" alt="Page 2 - User Percentage" height="400">
+  <p><em>Figure 2: Remaining Gas Percentage</em></p>
+</div>
+
 - Displays the following metrics using a Machine Learning model:
   - **Remaining Gas Percentage**: Visual representation of gas left in a circular percentage format.
   - **Remaining Days**: Estimated days left until the gas is depleted.
   - **Gas Weight Finished Date**: Predicted date when the gas will run out.
 
 ### Gas Weight Chart Page
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/0194a079-e6d8-4b87-b1e5-1de25a138403" alt="Page 3 - Gas Usage Track" height="400">
+  <p><em>Figure 3: Gas Usage Tracking</em></p>
+</div>
+
 - Visual representation of gas weight data over time, allowing users to track gas weight on specific dates in a chart format.
 
 ### Gas Leak Detection Page
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/57b06573-82ae-46c9-b6c6-7027f24c0f1b" alt="Page 4 - Gas Leak Test" height="400">
+  <p><em>Figure 4: Gas Leak Detection Test</em></p>
+</div>
+
 - Detects gas leaks based on weight reduction without assumptions.
 - Users can turn on or off the leaking alarm through the web application from anywhere.
 
 ## Tech Stack
 
 - **Frontend**: React
-- **Backend**: Firebase Realtime Database
-- **Real-time Data**: No need to reload the page to see different data
+- **Database**: No SQL Firebase Realtime Database - no need to reload the page to see different data
 
 ## Usage
 
