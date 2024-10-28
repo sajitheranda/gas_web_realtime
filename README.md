@@ -1,4 +1,4 @@
-# Gas cylinder Weight Predictor App
+# Gas cylinder Weight Predictor Web App
 
 ## Table of Contents
 
