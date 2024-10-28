@@ -110,5 +110,5 @@ To set up the Gas Weight Predictor App on your local machine, follow these steps
 
 For the mobile version of the Gas Weight Predictor App, please visit the following repository:
 
-- [Gas Weight Predictor Mobile App](https://github.com/yourusername/gas-weight-predictor-mobile-app)
+- [Gas Weight Predictor Mobile App](https://github.com/sajitheranda/Gas_usage_tracker_android.git)
    
