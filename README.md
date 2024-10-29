@@ -84,6 +84,16 @@ The app utilizes a Machine Learning model to predict gas consumption patterns ba
 
 ## Documentation
 
+The documentation provides a comprehensive overview of the Gas Weight Predictor App, including its architecture, functionalities, and user guide. This section contains:
+- **System Architecture**: An overview of the app’s architecture, detailing the interaction between the frontend and backend components.
+- **Database Schema**: A description of the data structure used in the Firebase Realtime Database, including key collections and their relationships.
+- **API Endpoints**: A detailed list of all API endpoints available in the app, including their request and response formats.
+- **User Guide**: Instructions for users on how to navigate and utilize the app effectively.
+  
+- You can access the full documentation and presentation through the following links:
+   - [Technical Documentation](https://github.com/user-attachments/files/17562547/Exmo.Gas.Cylinder.managenet.system.pdf)
+   - [Presentation](https://github.com/user-attachments/files/17562548/my.gas.cylinder.presentation.pdf)
+
 ### User Guide
 - **Accessing the App**: Open your web browser and navigate to the app URL.
 - **Inputting Data**: Fill out all fields on the user input page and submit the form to proceed.
